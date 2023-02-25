@@ -31,6 +31,7 @@ WRY_ANDROID_KOTLIN_FILES_OUT_DIR = "<android-project-dir>/app/src/main/kotlin/co
 [package.metadata.cargo-apple.ios]
 frameworks = [ "WebKit" ]
 
+
 [dependencies]
 anyhow = "1.0.56"
 log = "0.4.11"
