@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "T_Test",
+    "productName": "TauriApp",
     "version": "0.1.0"
   },
   "tauri": {
@@ -58,7 +58,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "TestOkno",
+        "title": "WindowTitle",
         "width": 800
       }
     ]
