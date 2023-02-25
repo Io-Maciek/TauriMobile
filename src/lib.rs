@@ -1,12 +1,11 @@
 #[tauri::command]
-fn log(mess: &str) {
-	println!("{mess}");
+fn greet(name: &str) -> String {
+	format!("Welcome {name}!")
 }
 
-#[tauri::command]
-fn greet(name: &str) -> String {
-	format!("Witaj {name}!")
-}
+
+
+
 
 use tauri::App;
 
@@ -45,7 +44,7 @@ impl AppBuilder {
 				}
 				Ok(())
 			})
-			.invoke_handler(tauri::generate_handler![greet, log])
+			.invoke_handler(tauri::generate_handler![greet])
 			.run(tauri::generate_context!())
 			.expect("error while running tauri application");
 	}
