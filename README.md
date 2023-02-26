@@ -4,6 +4,7 @@
 ```cargo tauri dev```
 
 ## Android
+```cargo tauri android init```
 ```cargo tauri android dev```
 
 
