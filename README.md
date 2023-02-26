@@ -1,5 +1,6 @@
 # Configuration
 ```cargo install tauri-cli --version "^2.0.0-alpha"```
+```cargo tauri android init```
 
 # How to run
 
@@ -7,8 +8,6 @@
 ```cargo tauri dev```
 
 ### Android
-```cargo tauri android init``` *(only for the first time)*
-
 ```cargo tauri android dev```
 
 
