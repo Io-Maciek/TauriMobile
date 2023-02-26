@@ -1,10 +1,11 @@
 # How to run
 
-## Windows
+### Windows
 ```cargo tauri dev```
 
-## Android
-```cargo tauri android init```
+### Android
+```cargo tauri android init``` *(only for the first time)*
+
 ```cargo tauri android dev```
 
 
