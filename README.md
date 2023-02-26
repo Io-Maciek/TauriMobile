@@ -1,3 +1,6 @@
+# Configuration
+```cargo install tauri-cli --version "^2.0.0-alpha"```
+
 # How to run
 
 ### Windows
